@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("/contact-page/resources/background@2x.png") no-repeat center center/cover;
+}
+
+.topbar {
+  width: 100%;
+  padding: 30px 60px;
+}
+
+.logo img {
+  width: 110px;
+}
+
+.container {
+  max-width: 950px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 20px 80px;
+  color: white;
+}
+
+.container h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 24px;
+
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input,
+select,
+textarea {
+  padding: 18px;
+  border-radius: 14px;
+  border: none;
+  font-size: 15px;
+  background: #f2f2f2;
+}
+
+textarea {
+  min-height: 160px;
+  resize: none;
+}
+
+.full {
+  width: 100%;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #f2f2f2;
+  color: #5b3fd0;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+
+@media (min-width: 768px) {
+  .row {
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .container h1 {
+    font-size: 52px;
+  }
+}
