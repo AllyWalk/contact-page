@@ -26,4 +26,4 @@ Deploy: [LINK](https://allywalk.github.io/contact-page/)
 
 ## 📝 Reflexión
  
-Reconoci el uso del flex-direction: column para dar la respuesta responsiva y como 
+Reconoci el uso del flex-direction: column para dar la respuesta responsiva y como se utiliza los diferentes inputs, placeholders y menus desplegables, lo mas complicado fue como darles el formato sin que se moviera todo al momento de estar añadiendo los estilos
